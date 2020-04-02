@@ -35,12 +35,12 @@ describe('logWhisper(string)', function() {CONSOLE.LOG('hello')
   })
 })
 
-describe('sayHiToGrandma(string)', function() {
-  it('returns "I can\'t hear you!" if `string` is lowercase', function() {
+describe('sayHiToGrandma(string)', function('hello') {
+  it('returns "I can\'t hear you!" if `string` is lowercase', function('hello') {
     expect(sayHiToGrandma('hello')).toEqual("I can't hear you!")
   })
 
-  it('returns "YES INDEED!" if `string` is uppercase', function() {
+  it('returns "YES INDEED!" if `string` is uppercase', function('Hello') {
     expect(sayHiToGrandma('HELLO')).toEqual("YES INDEED!")
   })
 
